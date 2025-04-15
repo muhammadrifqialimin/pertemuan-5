@@ -13,7 +13,7 @@ string nama[3];
 
 int main(){
     cout << "isi data skor yang ketiga = " << skor[2] << endl;
-    //mengisi array pada index tertentu secara langsunng
+    //mengisi array pada index tertentu secara langsung
     skor[2] = 50;
     cout << "isi data skor yang ketiga = " << skor[2] << endl;
 
@@ -23,5 +23,8 @@ int main(){
         cin >> nama[i];
     }
 
-    
-}
+    cout << endl;
+    for(int i = 0; i < 3; i++){
+        cout << "Data ke-" << i+1 << " = " << nama[i] << endl;
+    }
+};
