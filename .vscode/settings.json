@@ -24,5 +24,8 @@
     "tertentu",
     "ukuran",
     "wajib"
-  ]
+  ],
+  "files.associations": {
+    "iostream": "cpp"
+  }
 }
